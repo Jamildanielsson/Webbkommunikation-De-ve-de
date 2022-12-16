@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #264653;
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);   
+}
+
+main article {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #e9c46a;
+    text-align: center;
+}
+
+article h1 {
+    font-size: 60px;
+    align-items: flex-start;
+    margin: 1rem;
+}
+
+article section {
+    margin-top: 9.15rem;
+}
+
+article section h1 {
+    font-size: 40px;
+    margin-bottom: 0rem;
+}
+
+article header {
+    align-items: flex-start;
+}
+
+article input {
+    margin: 0.5rem;
+}
+
+article h6 {
+    margin-left: 0.5rem;
+}
+
+#favoriteMoviesDiv {
+    width: 100vw;
+    height: 100vh;
+    background-color: #264653;
+    color: white;
+    display: flex;
+}
+
+#favoriteMoviesDiv section {
+    
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    margin: 0rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#favoriteMoviesDiv section h1{
+    font-size: 40px;
+    margin: 2rem;
+
+}
+
+#favoriteMoviesDiv section button {
+    margin-bottom: 1rem;
+}
+
+#favoriteMoviesDiv section article {
+    display: flex;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#menuLeft {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem;
+    background-color: #2a9d8f;
+    text-align: center;
+}
+
+#menuLeft h1 {
+    font-size: 40px;
+}
+
+#searchInput {
+    margin: 0.5rem;
+    width: 10rem;
+}
+
+#menuRight {
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem;
+    background-color: #f4a261;
+    text-align: center;
+}
+
+
+#menuRight h1 {
+    font-size: 40px;
+    margin-bottom:2.2rem;
+}
+
+li {
+    margin:0.2rem;
+    padding: 1rem;
+    height: 23rem;
+    list-style-type: none;
+    border: 1px double transparent;
+    border-radius: 6px;
+    background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at right top, #2a9d8f, #f4a261);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    color: rgba(256, 256, 256, 1);
+  }
+  
+  li h1 {
+    margin-top: 0.5rem;
+  }
+  
+  li h4 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+
+#searchDiv {
+    width: 100vw;
+    height: 100vh;
+    background-color: #264653;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+
+}
+
+#searchDiv h1{
+    font-size: 60px;
+    margin: 2rem;
+}
+
+#searchDiv li {
+    padding: 2rem;
+    width: 15rem;
+    height: 17rem;
+    text-align: center;
+}
+
+button {
+    margin: 0rem;
+    padding: 1rem 4rem;
+    border-style: none;
+    border-radius: 4px;
+    background-color: #e76f51;
+    filter: brightness(103%);
+}
+
+button:hover {
+    filter: brightness(110%)
+}
+
+button:active{
+    transform: scale(1.06);
+    filter: brightness(103%);
+}
+
+
